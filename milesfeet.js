@@ -1,6 +1,6 @@
 var report = function (feet, miles) {
     document.getElementById("result").innerHTML =
-        feet + " feet = " + miles + " mile(s).";
+        feet.toFixed(2) + " feet = " + miles.toFixed(2) + " mile(s).";
 };
 
 document.getElementById("m_to_f").onclick = function (miles) {
